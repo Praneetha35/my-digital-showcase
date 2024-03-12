@@ -106,14 +106,16 @@ h2 {
   line-height: 34px;
 }
 
-/* Pragraphs text large medium small */
+/* Paragraphs text large medium small */
 /* Body 1 */
+
 .text-lg {
-  color: var(--darkblue);
+  color: var(--white);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 27px;
+  line-height: 69px;
+  margin-bottom: -56px;
 }
 /* Body 2 */
 .text-md {
@@ -147,7 +149,7 @@ h2 {
 /* Portfolio, Testimonial & Contact Me */
 .sub--title {
   color: var(--white);
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 600;
   line-height: 24px;
 }
@@ -269,10 +271,9 @@ h2 {
   flex: 1 0;
   border-radius: 10.6px;
   /* background: var(--bg-shade); */
-  min-height: 212px;
   min-width: 266px;
-  margin-left: 38px;
-  margin-right: 58px;
+  margin-left: 83px;
+  margin-right: 38px;
   background-color: #1c1b1b;
 }
 .skills--section--card:hover {
@@ -451,6 +452,7 @@ h2 {
 /* Testimonial Ends */
 .contact--section {
   display: flex;
+  background:black;
   padding: 150px 85px;
   flex-direction: column;
   justify-content: center;
@@ -518,6 +520,18 @@ input[type="checkbox"] {
   border-radius: 0.15em;
   transform: translatey(-0.075em);
 }
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+}
+
 /* Contact End */
 
 /* Footer Start */
@@ -760,4 +774,4 @@ input[type="checkbox"] {
   }
 }
 
-/* Responsive Screens Ends*/
+
