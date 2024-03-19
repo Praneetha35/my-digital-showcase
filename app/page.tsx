@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Particles from "./components/particles";
+import Image from "next/image";
 
 const navigation = [
   { name: "Projects", href: "/projects" },
@@ -33,7 +34,14 @@ export default function Home() {
       </h1>
 
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
-      <div className="my-16 text-center animate-fade-in">
+      <div className="my-16 text-center animate-fade-in flex">
+        <Image
+          className="mr-2 rounded-full border-4 border-solid border-white shadow-lg hover:scale-150 transition-transform duration-300 transform-gpu hover:-rotate-6 hover:shadow-xl hover:grayscale-50 hover:brightness-110 hover:border-transparent transition-all"
+          src="/cropped.png"
+          width={120}
+          height={120}
+          alt="Picture of the author"
+        />
         <h2 className="text-sm text-zinc-500 flex justify-center max-w-sm md:max-w-md">
           Enthusiastic Masters student in Computer Science with a strong
           foundation in software development and a passion for leveraging
