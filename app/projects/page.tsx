@@ -10,44 +10,60 @@ export default async function ProjectsPage() {
   const mockProjects = [
     {
       key: 1,
-      title: "BidVerse",
+      title: "Market Research Analysis Tool",
       description:
-        "BidVerse is a Polygon based web3 platform revolutionizing hiring: seamlessly connecting companies with deserving candidates.",
+        "Contributed to a Market Research Analysis tool streamlines federal acquisition decision-making by leveraging technology for market research, vendor identification, and small business goal fulfillment",
       date: 1678742400000,
       views: 5,
     },
     {
       key: 2,
+      title: "NFT Marketplace",
+      description:
+        "Contributed to building an NFT Marketplace right from scratch, focusing on full-stack development, smart contract creation, and integrations like automated notifications via Mailgun, enhancing user experience and reducing missed auction events",
+      date: 1678742400000,
+      views: 5,
+    },
+    {
+      key: 3,
+      title: "BidVerse",
+      description:
+        "BidVerse is a Polygon based web3 platform revolutionizing hiring: seamlessly connecting companies with deserving candidates",
+      date: 1678742400000,
+      views: 5,
+    },
+    {
+      key: 4,
+      title: "My Digital Showcase",
+      description:
+        "I crafted a digital showcase - my portfolio website - to flaunt my projects and skills, because let's face it, my work deserves its own stage!",
+      date: 1678742400000,
+      views: 5,
+    },
+    {
+      key:5,
       title: "SecureSign",
       description:
-        "A web3 PDF uploader with IPFS storage and blockchain integration for cryptographic verification, ensuring secure file management.",
+        "A web3 PDF uploader with IPFS storage and blockchain integration for cryptographic verification, ensuring secure file management",
       date: 1678742400000,
       views: 8,
     },
     {
-      key: 3,
+      key: 6,
       title: "PixelPython",
       description:
-        "PixelPython is a classic snake game using Pygame library.",
+        "PixelPython is a classic snake game using Pygame library",
       date: 1678742400000,
       views: 3,
     },
     {
-      key: 4,
+      key: 7,
       title: "SkyWatch",
       description:
-        "SkyWatch is a dynamic React JS weather app showcasing temperature, region, and local time display.",
+        "SkyWatch is a dynamic React JS weather app showcasing temperature, region, and local time display",
       date: 1678742400000,
       views: 7,
-    },
-    {
-      key: 5,
-      title: "Crypto Chronicles",
-      description:
-        "Delve into the fascinating world of cryptocurrencies. Join our virtual explorer as they unveil the tales and adventures within the blockchain.",
-      date: 1678742400000,
-      views: 2,
-    },
+    }
   ];
   // const views = (
   //   await redis.mget<number[]>(
