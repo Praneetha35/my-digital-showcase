@@ -13,7 +13,7 @@ export default async function ProjectsPage() {
         "Contributed to a Market Research Analysis tool streamlines federal acquisition decision-making by leveraging technology for market research, vendor identification, and small business goal fulfillment",
       date: 1678742400000,
       views: 5,
-      stacks: ["React.js", "Node.js", "MongoDB", "Angular"],
+      stacks: ["React", "Node.js","Express.js", "MongoDB", "Elasticsearch"],
     },
     {
       key: 2,
@@ -22,7 +22,7 @@ export default async function ProjectsPage() {
         "Contributed to building an NFT Marketplace right from scratch, focusing on full-stack development, smart contract creation, and integrations like automated notifications via Mailgun, enhancing user experience and reducing missed auction events",
       date: 1678742400000,
       views: 5,
-      stacks: ["Vue.js", "Express.js", "PostgreSQL"],
+      stacks: ["React", "Node.js", "Express.js", "OpenZepplin","Solidity"],
     },
     {
       key: 3,
@@ -31,16 +31,15 @@ export default async function ProjectsPage() {
         "BidVerse is a Polygon based web3 platform revolutionizing hiring: seamlessly connecting companies with deserving candidates",
       date: 1678742400000,
       views: 5,
-      stacks: ["Node.js", "MongoDB", "Angular", "PostgreSQL"],
+      stacks: ["React", "OpenZepplin", "Solidity"],
     },
     {
       key: 4,
-      title: "My Digital Showcase",
-      description:
-        "I crafted a digital showcase - my portfolio website - to flaunt my projects and skills, because let's face it, my work deserves its own stage!",
+      title: "PixelPython",
+      description: "PixelPython is a classic snake game using Pygame library",
       date: 1678742400000,
-      views: 5,
-      stacks: ["Node.js", "MongoDB", "Angular", "PostgreSQL"],
+      views: 3,
+      stacks: ["Python"],
     },
     {
       key: 5,
@@ -53,11 +52,12 @@ export default async function ProjectsPage() {
     },
     {
       key: 6,
-      title: "PixelPython",
-      description: "PixelPython is a classic snake game using Pygame library",
+      title: "My Digital Showcase",
+      description:
+        "I crafted a digital showcase - my portfolio website - to flaunt my projects and skills, because let's face it, my work deserves its own stage!",
       date: 1678742400000,
-      views: 3,
-      stacks: ["Node.js", "MongoDB", "Angular", "PostgreSQL"],
+      views: 5,
+      stacks: ["React", "Next.js"],
     },
     {
       key: 7,
@@ -66,7 +66,7 @@ export default async function ProjectsPage() {
         "SkyWatch is a dynamic React JS weather app showcasing temperature, region, and local time display",
       date: 1678742400000,
       views: 7,
-      stacks: ["Node.js", "MongoDB", "Angular", "PostgreSQL"],
+      stacks: ["React"],
     },
   ];
 

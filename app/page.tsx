@@ -43,11 +43,7 @@ export default function Home() {
     alt="Picture of the author"
   />
   <h2 className="text-sm text-zinc-500 flex justify-center max-w-xs md:max-w-md">
-    Hey there, I'm PraneethaChandraPrakash, your friendly neighborhood code ninja. 💻
-    By day, I'm crafting digital marvels, fueled by endless cups of coffee ☕️ and a sprinkle of coding magic. ✨
-    But when the pixels dim, you'll find me diving into gripping crime thrillers 📚, plotting my next hackathon heist 🕵️‍♀️, and exploring the culinary world 🍽️.<br/>
-    Whether I'm coding or cooking, I'm always on the hunt for the perfect blend - whether it's lines of code or flavors in a dish. 🍳
-    Look no further! I'm your trusted digital ally. 💪 Bring your innovation and ambition; every project with me is a thrilling adventure! 🚀
+    Hey there, I'm PraneethaChandraPrakash, a Computer Science Masters student at Western Michigan University. 💻 I'm passionate about crafting digital experiences through app development and innovative tech solutions. But when I step away from the keyboard, you'll find me diving into gripping crime thrillers 📚 or exploring the culinary world 🍽️.
   </h2>
 </div>
 
