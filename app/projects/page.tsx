@@ -13,7 +13,7 @@ export default async function ProjectsPage() {
         "Contributed to a Market Research Analysis tool streamlines federal acquisition decision-making by leveraging technology for market research, vendor identification, and small business goal fulfillment",
       date: 1678742400000,
       views: 5,
-      stacks: ["React", "Node.js","Express.js", "MongoDB", "Elasticsearch"],
+      stacks: ["React","Node.js","Express.js","MongoDB","Elasticsearch","Bootstrap"],
     },
     {
       key: 2,
@@ -22,7 +22,7 @@ export default async function ProjectsPage() {
         "Contributed to building an NFT Marketplace right from scratch, focusing on full-stack development, smart contract creation, and integrations like automated notifications via Mailgun, enhancing user experience and reducing missed auction events",
       date: 1678742400000,
       views: 5,
-      stacks: ["React", "Node.js", "Express.js", "OpenZepplin","Solidity"],
+      stacks: ["React","Nest.js","MongoDB","OpenZepplin","Solidity","IPFS","jquery"],
     },
     {
       key: 3,
@@ -31,7 +31,7 @@ export default async function ProjectsPage() {
         "BidVerse is a Polygon based web3 platform revolutionizing hiring: seamlessly connecting companies with deserving candidates",
       date: 1678742400000,
       views: 5,
-      stacks: ["React", "OpenZepplin", "Solidity"],
+      stacks: ["React","Arweave","OpenZepplin","Solidity"],
     },
     {
       key: 4,
@@ -39,7 +39,7 @@ export default async function ProjectsPage() {
       description: "PixelPython is a classic snake game using Pygame library",
       date: 1678742400000,
       views: 3,
-      stacks: ["Python"],
+      stacks: ["Python","PyGame"],
     },
     {
       key: 5,
@@ -48,7 +48,7 @@ export default async function ProjectsPage() {
         "A web3 PDF uploader with IPFS storage and blockchain integration for cryptographic verification, ensuring secure file management",
       date: 1678742400000,
       views: 8,
-      stacks: ["Node.js", "MongoDB", "Angular", "PostgreSQL"],
+      stacks: ["React","Node.js","Express.js","MongoDB","Solidity","OpenZepplin"],
     },
     {
       key: 6,
@@ -57,7 +57,7 @@ export default async function ProjectsPage() {
         "I crafted a digital showcase - my portfolio website - to flaunt my projects and skills, because let's face it, my work deserves its own stage!",
       date: 1678742400000,
       views: 5,
-      stacks: ["React", "Next.js"],
+      stacks: ["React","Next.js","Tailwind CSS"],
     },
     {
       key: 7,
