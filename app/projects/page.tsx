@@ -13,6 +13,7 @@ export default async function ProjectsPage() {
         "Contributed to a Market Research Analysis tool streamlines federal acquisition decision-making by leveraging technology for market research, vendor identification, and small business goal fulfillment",
       date: 1678742400000,
       views: 5,
+      image:"/nft-project-image-1.jpg",
       stacks: ["React","Node.js","Express.js","MongoDB","Elasticsearch","Bootstrap"],
     },
     {
@@ -22,6 +23,7 @@ export default async function ProjectsPage() {
         "Contributed to building an NFT Marketplace right from scratch, focusing on full-stack development, smart contract creation, and integrations like automated notifications via Mailgun, enhancing user experience and reducing missed auction events",
       date: 1678742400000,
       views: 5,
+      image:"/nft-project-image.png",
       stacks: ["React","Nest.js","MongoDB","OpenZepplin","Solidity","IPFS","jquery"],
     },
     {
@@ -31,6 +33,7 @@ export default async function ProjectsPage() {
         "BidVerse is a Polygon based web3 platform revolutionizing hiring: seamlessly connecting companies with deserving candidates",
       date: 1678742400000,
       views: 5,
+      image:"/nft-project-image.jpg",
       stacks: ["React","Arweave","OpenZepplin","Solidity"],
     },
     {
@@ -39,6 +42,7 @@ export default async function ProjectsPage() {
       description: "PixelPython is a classic snake game using Pygame library",
       date: 1678742400000,
       views: 3,
+      image:"/nft-project-image.jpg",
       stacks: ["Python","PyGame"],
     },
     {
@@ -48,6 +52,7 @@ export default async function ProjectsPage() {
         "A web3 PDF uploader with IPFS storage and blockchain integration for cryptographic verification, ensuring secure file management",
       date: 1678742400000,
       views: 8,
+      image:"/nft-project-image.jpg",
       stacks: ["React","Node.js","Express.js","MongoDB","Solidity","OpenZepplin"],
     },
     {
@@ -57,6 +62,7 @@ export default async function ProjectsPage() {
         "I crafted a digital showcase - my portfolio website - to flaunt my projects and skills, because let's face it, my work deserves its own stage!",
       date: 1678742400000,
       views: 5,
+      image:"/nft-project-image.jpg",
       stacks: ["React","Next.js","Tailwind CSS"],
     },
     {
@@ -66,6 +72,7 @@ export default async function ProjectsPage() {
         "SkyWatch is a dynamic React JS weather app showcasing temperature, region, and local time display",
       date: 1678742400000,
       views: 7,
+      image:"/nft-project-image.jpg",
       stacks: ["React"],
     },
   ];
