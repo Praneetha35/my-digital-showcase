@@ -1,6 +1,6 @@
 
 type Props = {
-  project: { title: string; description: string; date?: number; views: number; stacks: string[] };
+  project: { title: string; description: string; date?: number; views: number; stacks: string[],image?: string};
 };
 
 export const Article: React.FC<Props> = ({ project }) => {
@@ -20,6 +20,13 @@ export const Article: React.FC<Props> = ({ project }) => {
           </div>
         ))}
       </div>
+      {project.image && (
+        <img
+          src={project.image}
+          alt="Project"
+          className="w-full h-auto object-cover rounded-b-xl mt-4"
+        />
+      )}
     </article>
   );
 };
