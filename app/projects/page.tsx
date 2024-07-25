@@ -13,7 +13,7 @@ export default async function ProjectsPage() {
         "Contributed to a Market Research Analysis tool streamlines federal acquisition decision-making by leveraging technology for market research, vendor identification, and small business goal fulfillment",
       date: 1678742400000,
       views: 5,
-      image:"/nft-project-image-1.jpg",
+      image:"/market-research-tool.jpg",
       stacks: ["React","Node.js","Express.js","MongoDB","Elasticsearch","Bootstrap"],
     },
     {
@@ -34,6 +34,7 @@ export default async function ProjectsPage() {
       date: 1678742400000,
       views: 5,
       image:"/nft-project-image.jpg",
+      githubUrl:'https://github.com/Praneetha35/BidVerse',
       stacks: ["React","Arweave","OpenZepplin","Solidity"],
     },
     {
@@ -42,7 +43,7 @@ export default async function ProjectsPage() {
       description: "PixelPython is a classic snake game using Pygame library",
       date: 1678742400000,
       views: 3,
-      image:"/nft-project-image.jpg",
+      image:"/snake-game.jpg",
       stacks: ["Python","PyGame"],
     },
     {
@@ -72,7 +73,7 @@ export default async function ProjectsPage() {
         "SkyWatch is a dynamic React JS weather app showcasing temperature, region, and local time display",
       date: 1678742400000,
       views: 7,
-      image:"/nft-project-image.jpg",
+      image:"/weather-app-image.png",
       stacks: ["React"],
     },
   ];
