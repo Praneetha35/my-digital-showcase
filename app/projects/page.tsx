@@ -31,7 +31,7 @@ export default async function ProjectsPage() {
         "Contributed to building an NFT Marketplace right from scratch, focusing on full-stack development, smart contract creation, and integrations like automated notifications via Mailgun, enhancing user experience and reducing missed auction events",
       date: 1678742400000,
       views: 5,
-      image: "/nft-project-image.png",
+      image: "/nft-image.jpg",
       githubUrl: "https://github.com/Praneetha35/BidVerse",
       stacks: [
         "React",
