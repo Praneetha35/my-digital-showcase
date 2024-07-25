@@ -1,6 +1,6 @@
 
 type Props = {
-  project: { title: string; description: string; date?: number; views: number; stacks: string[],image?: string};
+  project: { title: string; description: string; date?: number; views: number; stacks: string[],image?: string,githubUrl?:string};
 };
 
 export const Article: React.FC<Props> = ({ project }) => {
@@ -24,9 +24,20 @@ export const Article: React.FC<Props> = ({ project }) => {
         <img
           src={project.image}
           alt="Project"
-          className="w-full h-auto object-cover rounded-b-xl mt-4"
+          className="w-full h-auto object-cover rounded-lg mt-4"
         />
       )}
+      <div className="mt-4">
+        {project.githubUrl && (
+          <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+              alt="GitHub"
+              className="w-8 h-8 inline-block"
+            />
+          </a>
+        )}
+      </div>
     </article>
   );
 };
