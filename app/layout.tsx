@@ -3,6 +3,7 @@ import { Inter } from "@next/font/google";
 import LocalFont from "@next/font/local";
 import { Metadata } from "next";
 import { Analytics } from "./components/analytics";
+import Script from 'next/script'
 
 export const metadata: Metadata = {
   title: {
@@ -55,7 +56,17 @@ export default function RootLayout({
   return (
     <html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
       <head>
-        <Analytics />
+        {/* <Analytics /> */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-W5YHY3JSFV"></script>
+        <Script id = 'google-analytics'>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-W5YHY3JSFV');
+          `
+        }
+      </Script>
       </head>
       <body
         className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined

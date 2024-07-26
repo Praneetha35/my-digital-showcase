@@ -14,7 +14,6 @@ export default async function ProjectsPage() {
       date: 1678742400000,
       views: 5,
       image: "/market-research.jpeg",
-      // githubUrl: "https://github.com/Praneetha35/BidVerse",
       stacks: [
         "React",
         "Node.js",
@@ -32,7 +31,6 @@ export default async function ProjectsPage() {
       date: 1678742400000,
       views: 5,
       image: "/nft-image.jpg",
-      githubUrl: "https://github.com/Praneetha35/BidVerse",
       stacks: [
         "React",
         "Nest.js",
@@ -61,7 +59,7 @@ export default async function ProjectsPage() {
       date: 1678742400000,
       views: 3,
       image: "/snake-game.jpg",
-      githubUrl: "https://github.com/Praneetha35/BidVerse",
+      githubUrl: "https://github.com/Praneetha35/pixel-python",
       stacks: ["Python", "PyGame"],
     },
     {
@@ -72,7 +70,6 @@ export default async function ProjectsPage() {
       date: 1678742400000,
       views: 8,
       image: "/secure-sign.png",
-      githubUrl: "https://github.com/Praneetha35/BidVerse",
       stacks: [
         "React",
         "Node.js",
@@ -90,7 +87,7 @@ export default async function ProjectsPage() {
       date: 1678742400000,
       views: 5,
       image: "/portfolio.png",
-      githubUrl: "https://github.com/Praneetha35/BidVerse",
+      githubUrl: "https://github.com/Praneetha35/my-digital-showcase",
       stacks: ["React", "Next.js", "Tailwind CSS"],
     },
     {
@@ -101,7 +98,7 @@ export default async function ProjectsPage() {
       date: 1678742400000,
       views: 7,
       image: "/weather.jpg",
-      githubUrl: "https://github.com/Praneetha35/BidVerse",
+      githubUrl: "https://github.com/Praneetha35/sky-watch",
       stacks: ["React"],
     },
   ];
