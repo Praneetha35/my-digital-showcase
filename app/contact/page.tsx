@@ -1,15 +1,15 @@
 "use client";
-import { Github, Twitter, Linkedin } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
   {
-    icon: <Twitter size={20} />,
-    href: "https://twitter.com/praneethacp35",
-    label: "Twitter",
-    handle: "@praneethacp35",
+    icon: <Mail size={20} />,
+    href: "mailto:praneethacp35@gmail.com",
+    label: "Email",
+    handle: "praneethacp35",
   },
   {
     icon: <Linkedin size={20} />,
