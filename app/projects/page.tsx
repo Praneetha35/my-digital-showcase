@@ -7,6 +7,28 @@ export const revalidate = 60;
 export default async function ProjectsPage() {
   const projects = [
     {
+      key: 8,
+      title: "npm-form-checker",
+      description:
+        "form-checker is an easy-to-use form validation library that supports both synchronous and asynchronous validations, designed for seamless integration with React.",
+      date: 1678742400000,
+      views: 7,
+      image: "/npm.jpeg",
+      githubUrl: "https://github.com/Praneetha35/npm-form-checker",
+      stacks: ["React", "npm-package", "Node JS"],
+    },
+    {
+      key: 9,
+      title: "pantry-pal",
+      description:
+        "Welcome to PantryPal, your go-to app for effortless pantry management and meal inspiration. Built with Next.js, PantryPal transforms your kitchen experience with its AI-powered features.",
+      date: 1678742400000,
+      views: 7,
+      image: "/pantry.jpg",
+      githubUrl: "https://github.com/Praneetha35/pantry-pal",
+      stacks: ["Next.js", "Firebase", "OpenAI API", "Material-UI", "Vercel"],
+    },
+    {
       key: 1,
       title: "Market Research Analysis Tool",
       description:
